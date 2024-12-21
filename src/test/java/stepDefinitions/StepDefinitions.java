@@ -9,6 +9,7 @@ public class StepDefinitions {
     @Given("add {string} {string} {string} in AddplaceApi payload")
     public void add_in_addplace_api_payload(String string, String string2, String string3) {
         // Write code here that turns the phrase above into concrete actions
+        System.out.println("hello");
 
     }
     @When("call {string} with {string} http method")
